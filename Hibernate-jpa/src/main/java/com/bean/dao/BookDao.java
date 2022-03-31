@@ -12,7 +12,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class BookDao {
-    static EntityManagerFactory factory = Persistence.createEntityManagerFactory("Prathamesh");
+    static EntityManagerFactory factory = Persistence.createEntityManagerFactory("entir");
     static EntityManager manager = factory.createEntityManager();
     static CriteriaBuilder criteriaBuilder = manager.getCriteriaBuilder();
 
