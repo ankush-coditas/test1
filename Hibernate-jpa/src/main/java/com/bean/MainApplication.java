@@ -19,7 +19,7 @@ import java.util.List;
 
 public class MainApplication {
     public static void main(String[] args) throws IOException {
-        EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("Prathamesh");
+        EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("entity");
         EntityManager entityManager = entityManagerFactory.createEntityManager();
         BookDao bookDao = new BookDao();
 
